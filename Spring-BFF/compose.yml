@@ -1,0 +1,24 @@
+# Dev services and integration test services
+services:
+  keycloak:
+    profiles:
+      - sso
+    container_name: keycloak
+    image: quay.io/keycloak/keycloak:25.0.4
+    command: start-dev --import-realm
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    ports:
+      - 9000:8080
+    restart: always
+    volumes:
+      - ./keycloakdata:/opt/keycloak/data/import
+    networks:
+      - network
+volumes:
+  datakeycloak:
+
+networks:
+  network:
+    name: network

@@ -1,0 +1,26 @@
+{
+  "realm" : "master",
+  "users" : [ {
+    "id" : "7448870b-edc8-4773-b9ef-846dbab943b0",
+    "username" : "admin",
+    "emailVerified" : false,
+    "createdTimestamp" : 1725894635715,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "9eeea539-2910-4e52-bb0e-a552d0b074f6",
+      "type" : "password",
+      "createdDate" : 1725894635821,
+      "secretData" : "{\"value\":\"Zawnx4oCGXjTf+kmv/YrO63K2jl4zP7UH8ap4XWTGTE=\",\"salt\":\"RoOv2BgsxG1vB2MHZrFzgA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-master", "admin" ],
+    "clientRoles" : {
+      "chatbotdev-realm" : [ "manage-events", "manage-identity-providers", "query-realms", "view-realm", "view-authorization", "query-groups", "view-identity-providers", "query-clients", "view-clients", "view-events", "create-client", "manage-realm", "view-users", "query-users", "manage-clients", "manage-authorization", "manage-users" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

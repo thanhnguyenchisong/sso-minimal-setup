@@ -1,0 +1,27 @@
+{
+  "realm" : "chatbotdev",
+  "users" : [ {
+    "id" : "28f1cb3f-fbf6-4acf-ae0f-1c4f581ed18a",
+    "username" : "test@gmail.com",
+    "firstName" : "Thanh",
+    "lastName" : "Nguyen Chi Song",
+    "email" : "test@gmail.com",
+    "emailVerified" : true,
+    "createdTimestamp" : 1725894779108,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "26594b51-2cae-43de-bc26-8cf705ba2ef6",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1725894793841,
+      "secretData" : "{\"value\":\"tDSdViPb1M4tAUuIeG9Eszz+tWkn3qrZl7HuSxdwciI=\",\"salt\":\"Mn8CziwKCBzer2Y+FFy0Hw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "ADMIN", "default-roles-chatbotdev", "USER" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
